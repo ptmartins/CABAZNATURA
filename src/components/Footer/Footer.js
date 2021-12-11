@@ -67,7 +67,7 @@ function Footer() {
             <div className="footer__bottom">
                 <div className="innerWrapper">
                     <p className="footer__copyright">Copyright &copy; 2021 - Cabaz Natura</p>
-                    <p className="footer__developedBy">Developed with &hearts; by <a href="mailto:pedro@pedromartins.com.pt" className="u-link">Pedro Martins</a></p>
+                    <p className="footer__developedBy">Developed with &hearts; by <a href="https://ptmartins.github.io" className="u-link">Pedro Martins</a></p>
                     <div className="footer__payments">
                         <span>We accept:</span>
                         <span className="payment">
