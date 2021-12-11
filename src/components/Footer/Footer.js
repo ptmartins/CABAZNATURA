@@ -32,11 +32,11 @@ function Footer() {
                     <div className="footer__menu">
                         <div className="footer__menuCategories">
                             <h3 className="footer__title">Categories</h3>
-                            {CATEGORIES.map(category => <a href="#" className="u-link footer__linkItem">{category}</a>)}
+                            {CATEGORIES.map(category => <a href="/#" className="u-link footer__linkItem">{category}</a>)}
                         </div>
                         <div className="footer__menuLinks">
                             <h3 className="footer__title">Links</h3>
-                            {LINKS.map(link => <a href="#" className="u-link footer__linkItem">{link}</a>)}
+                            {LINKS.map(link => <a href="/#" className="u-link footer__linkItem">{link}</a>)}
                         </div>
                     </div>
                     <div className="footer__contacts">
