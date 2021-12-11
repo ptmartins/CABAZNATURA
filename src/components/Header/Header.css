@@ -1,0 +1,110 @@
+.header__top,
+.header__bottom {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.375rem 0;
+}
+
+.header__top {
+  border-bottom: 1px solid var(--header-top-border-color);
+  font-size: 13px;
+}
+
+.header__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__contacts .u-link {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: var(--accent-green);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0.75rem;
+}
+
+.header__contacts span {
+  color: var(--font-color);
+  margin-left: 0.375rem;
+  -webkit-transition: color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+.header__contacts span:hover {
+  color: var(--accent-green);
+}
+
+.header__bottom {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.header__bottom .nav {
+  margin-right: auto;
+}
+
+.header__logo {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__logoImg {
+  height: 35px;
+  margin-right: 1.5rem;
+}
+
+.logo__txt {
+  color: var(--accent-green);
+  font-size: 1.8rem;
+}
+
+.header__bottom .u-link--whatsApp {
+  font-size: 1.2rem;
+  margin-right: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 1;
+  -webkit-transition: var(--default-transition);
+  -o-transition: var(--default-transition);
+  transition: var(--default-transition);
+}
+
+.header__bottom .u-link--whatsApp:hover {
+  color: var(--accent-green);
+}
+
+.header__bottom .whatsApp__icon {
+  color: var(--accent-green);
+  font-size: 1.4rem;
+  margin-right: 0.75rem;
+}
+
+.header__bottom .btn--cta {
+  background-color: var(--accent-orange);
+  border: 0;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 700;
+}

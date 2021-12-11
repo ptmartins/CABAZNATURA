@@ -1,0 +1,31 @@
+.u-link {
+  color: var(--font-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.u-input {
+  background-color: #fff;
+  border: 2px solid var(--font-color);
+  padding: 0.75rem 1.5rem;
+  width: 100%;
+}
+
+.u-input:active,
+.u-input:focus {
+  outline: var(--accent-green-dark);
+}
+
+.btn {
+  border: 1px solid var(--font-color);
+  cursor: pointer;
+  outline: none;
+  padding: 0.75rem 1rem;
+  text-transform: uppercase;
+}
+
+.btn--main {
+  border: 0;
+  background-color: var(--accent-green);
+  color: #fff;
+}
