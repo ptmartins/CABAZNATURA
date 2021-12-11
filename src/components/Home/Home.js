@@ -353,15 +353,11 @@ function Home() {
             <section className="section section--offers">
                 <div className="innerWrapper">
                     <h2 className="section__title">Hot offers</h2>
-
-                    {data.vegetables.map(item => {
-                        if(item.offer) {
-                            return(
-                                <Product name={item.name} price={item.price} category="Vegetables" unit={item.unit} offer={item.offer} imgSrc={`/vegetables/${item.imgSrc}`} className="offer" />
-                            )
-                        }
+                    {data.vegetables.filter(item => item.offer === true).map(item => {
+                        return(
+                            <Product name={item.name} price={item.price} category="Vegetables" unit={item.unit} offer={item.offer} imgSrc={`/vegetables/${item.imgSrc}`} className="offer" />
+                        )
                     })}
-
                 </div>  
             </section>
 
