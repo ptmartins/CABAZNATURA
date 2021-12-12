@@ -1,4 +1,3 @@
-import './Home.css';
 import {FaTruck, FaChevronRight} from 'react-icons/fa';
 import {AiOutlineEuro} from 'react-icons/ai';
 import {RiSecurePaymentLine} from 'react-icons/ri';
@@ -11,6 +10,7 @@ import jams from '../../assets/images/jams.png';
 import Product from '../Product/Product';
 import PhoneApp from '../../assets/images/phone_app.png';
 import Review from '../Review/Review';
+import './Home.css';
 
 const data = {
     fruits: [

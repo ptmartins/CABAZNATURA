@@ -199,3 +199,149 @@
 .review:last-child {
   margin-right: 0;
 }
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+  .hero__highlights,
+  .section--offers .innerWrapper,
+  .reviews {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .section--hero .innerWrapper {
+    display: block;
+  }
+
+  .hero__content {
+    width: 100%;
+  }
+
+  .hero__img img {
+    height: 140px;
+    margin: 3rem 0;
+  }
+
+  .hero__highlights {
+    position: relative;
+    left: unset;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    bottom: unset;
+  }
+
+  .newsletter__form {
+    width: 70%;
+  }
+
+  .footer__menu {
+    margin: 0 1.5rem;
+  }
+
+  .phoneApp {
+    display: block;
+    height: 50%;
+    bottom: 3rem;
+    top: unset;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .section__title {
+    text-align: center;
+  }
+
+  .product,
+  .hero__highlight,
+  .category,
+  .review {
+    width: calc(50% - 0.75rem);
+    margin: 0 0.75rem 0.75rem 0;
+  }
+
+  .product:nth-of-type(2n),
+  .category:nth-of-type(2n),
+  .review:nth-of-type(2n) {
+    margin-right: 0;
+  }
+
+  .section--categories .innerWrapper {
+    padding: 1.5rem;
+  }
+
+  .category__txt p,
+  .phoneApp {
+    display: none;
+  }
+
+  .category {
+    display: block;
+    text-align: center;
+    position: relative;
+  }
+
+  .category__cta {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero__highlight,
+  .review,
+  .category,
+  .product {
+    width: 100%;
+    margin: 0 0 1.5rem;
+  }
+
+  .hero__title,
+  .section__title--downloadApp {
+    font-size: 2.4rem;
+  }
+
+  .hero__subtitle,
+  .downloadApp__subtitle {
+    font-size: 1.8rem;
+  }
+
+  .hero__content p,
+  .downloadApp__txt {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .footer__newsletter,
+  .footer__top,
+  .section {
+    padding: 1.5rem;
+  }
+
+  .newsletter__form {
+    width: 100%;
+  }
+
+  .footer__newsletter {
+    padding-bottom: 6rem;
+  }
+
+  .qrCode {
+    font-size: 4rem;
+  }
+
+  .review,
+  .section--downloadApp .innerWrapper {
+    text-align: center;
+  }
+}
