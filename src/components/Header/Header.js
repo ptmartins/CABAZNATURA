@@ -47,7 +47,8 @@ function Header() {
                     <Logo className="header__logoImg"/>
                     <h2 className="logo__txt">Cabaz Natura</h2>
                 </div>
-                <HiOutlineMenu className={`hamburgerMenu ${menuClass}`} onClick={openMenu}/>
+                <HiOutlineMenu className={`hamburgerMenu`} onClick={openMenu}/>
+                <Navigation className={`mobileMenu ${menuClass}`} />
             </header>
         </>
 

@@ -13,6 +13,21 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.mobileMenu {
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.3s ease-in-out;
+  -o-transition: max-height 0.3s ease-in-out;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.mobileMenu.active {
+  max-height: 300px;
 }
 
 .hamburgerMenu {
